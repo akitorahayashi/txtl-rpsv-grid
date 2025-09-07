@@ -1,0 +1,56 @@
+/* main.css */
+
+Screen {
+    /* 画面全体の設定 */
+    layout: vertical;
+}
+
+Header {
+    /* ヘッダーの配置を中央に */
+    height: 3;
+    align: center middle;
+    content-align: center middle;
+    padding: 0 2;
+}
+
+Contents {
+    /* コンテンツ領域を画面中央に配置 */
+    height: 1fr;
+    width: 1fr;
+    padding: 4;
+    align: center middle;
+}
+
+.title {
+    /* タイトルテキストを中央配置 */
+    text-align: center;
+    padding: 2 4;
+    margin: 2 4 4 4;
+    width: 100%;
+}
+
+Grid {
+    /* グリッドの間隔を均等に調整 */
+    grid-gutter: 2 4;
+    width: auto;
+    height: auto;
+    max-width: 60;
+    align: center middle;
+}
+
+Button {
+    /* ボタンのサイズを均等に */
+    min-width: 16;
+    height: 3;
+    width: 1fr;
+}
+
+Button:focus {
+    /* フォーカス時の黒枠を無効化 */
+    outline: none;
+}
+
+Footer {
+    /* フッターの高さ固定 */
+    height: 1;
+}

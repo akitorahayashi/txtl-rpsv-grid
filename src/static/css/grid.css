@@ -1,0 +1,12 @@
+/* grid.css - 公式Grid構成 */
+
+ButtonGrid {
+    layout: grid;
+    grid-size: 3;
+    grid-columns: 1fr 1fr 1fr;
+    grid-gutter: 1 2;
+    align: center middle;
+    margin: 2 4;
+    width: 100%;
+    height: auto;
+}
