@@ -2,6 +2,8 @@
 
 A Textual app template with a responsive grid button view.
 
+<img width="598" height="391" alt="スクリーンショット" src="https://github.com/user-attachments/assets/76b4c704-bbac-4caa-940d-0ebf5e414c75" />
+
 ## Setup and Execution
 
 1.  **Initial Setup**
